@@ -1,0 +1,3 @@
+2022-05-06 09:48:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REALM" not found (this database is empty); SQL statement:
+update REALM set ssl_required='NONE' where id = 'master' [42104-212]

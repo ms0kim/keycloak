@@ -1,0 +1,1388 @@
+2022-05-16 18:37:45,498 INFO  [org.keycloak.quarkus.runtime.hostname.DefaultHostnameProvider] (main) Hostname settings: FrontEnd: <request>, Strict HTTPS: true, Path: <request>, Strict BackChannel: false, Admin: <request>
+2022-05-16 18:37:46,353 WARN  [org.infinispan.PERSISTENCE] (keycloak-cache-init) ISPN000554: jboss-marshalling is deprecated and planned for removal
+2022-05-16 18:37:46,448 WARN  [org.infinispan.CONFIG] (keycloak-cache-init) ISPN000569: Unable to persist Infinispan internal caches as no global state enabled
+2022-05-16 18:37:46,474 INFO  [org.infinispan.CONTAINER] (keycloak-cache-init) ISPN000556: Starting user marshaller 'org.infinispan.jboss.marshalling.core.JBossUserMarshaller'
+2022-05-16 18:37:46,742 INFO  [org.infinispan.CONTAINER] (keycloak-cache-init) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.5.Final
+2022-05-16 18:37:46,973 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000078: Starting JGroups channel `ISPN`
+2022-05-16 18:37:46,973 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000088: Unable to use any JGroups configuration mechanisms provided in properties {}. Using default JGroups configuration!
+2022-05-16 18:37:47,150 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the send buffer of socket MulticastSocket was set to 1.00MB, but the OS only allocated 212.99KB
+2022-05-16 18:37:47,151 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the receive buffer of socket MulticastSocket was set to 20.00MB, but the OS only allocated 212.99KB
+2022-05-16 18:37:47,151 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the send buffer of socket MulticastSocket was set to 1.00MB, but the OS only allocated 212.99KB
+2022-05-16 18:37:47,151 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the receive buffer of socket MulticastSocket was set to 25.00MB, but the OS only allocated 212.99KB
+2022-05-16 18:37:49,205 INFO  [org.jgroups.protocols.pbcast.GMS] (keycloak-cache-init) gdfauth-7020: no members discovered after 2012 ms: creating cluster as coordinator
+2022-05-16 18:37:49,215 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|0] (1) [gdfauth-7020]
+2022-05-16 18:37:49,222 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000079: Channel `ISPN` local address is `gdfauth-7020`, physical addresses are `[10.41.83.110:34754]`
+2022-05-16 18:37:49,828 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (main) Node name: gdfauth-7020, Site name: null
+2022-05-16 18:37:50,396 INFO  [io.quarkus] (main) Keycloak 17.0.0 on JVM (powered by Quarkus 2.7.0.Final) started in 8.299s. Listening on: http://0.0.0.0:8080 and https://0.0.0.0:8443
+2022-05-16 18:37:50,396 INFO  [io.quarkus] (main) Profile prod activated. 
+2022-05-16 18:37:50,396 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, infinispan-client, jdbc-h2, jdbc-mariadb, jdbc-mssql, jdbc-mysql, jdbc-oracle, jdbc-postgresql, keycloak, narayana-jta, reactive-routes, resteasy, resteasy-jackson, smallrye-context-propagation, smallrye-health, smallrye-metrics, vault, vertx]
+2022-05-16 18:38:04,058 WARN  [org.keycloak.events] (executor-thread-1) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=not_allowed, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-16 18:38:59,559 WARN  [org.keycloak.events] (executor-thread-1) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=851b85fa-972c-40ce-b761-b4eb67304da5, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, refresh_token_type=Refresh, refresh_token_id=e3201535-1bab-4551-9b10-7baad3e6651e, client_auth_method=client-secret
+2022-05-16 18:39:14,252 WARN  [org.keycloak.events] (executor-thread-6) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=not_allowed, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-16 18:39:22,978 WARN  [org.keycloak.events] (executor-thread-6) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=not_allowed, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-16 18:41:09,855 WARN  [org.keycloak.events] (executor-thread-6) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=not_allowed, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-16 18:42:43,974 WARN  [org.keycloak.events] (executor-thread-6) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=consent_denied, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-16 18:42:49,739 WARN  [org.keycloak.events] (executor-thread-6) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=consent_denied, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-16 18:43:02,424 WARN  [org.keycloak.events] (executor-thread-15) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=consent_denied, auth_method=oauth_credentials, grant_type=password, client_auth_method=client-secret
+2022-05-17 09:06:00,877 WARN  [org.keycloak.events] (executor-thread-16) type=REFRESH_TOKEN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-17 12:20:59,986 INFO  [org.infinispan.CLUSTER] (jgroups-8,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|1] (2) [gdfauth-7020, gdfauth-63166]
+2022-05-17 12:20:59,994 INFO  [org.infinispan.CLUSTER] (jgroups-8,gdfauth-7020) ISPN100000: Node gdfauth-63166 joined the cluster
+2022-05-17 12:21:00,474 INFO  [org.infinispan.CLUSTER] (jgroups-12,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,590 INFO  [org.infinispan.CLUSTER] (jgroups-12,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,613 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,621 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,631 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,699 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,709 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,718 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,732 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,750 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,753 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,756 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,781 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,805 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,809 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,814 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,829 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,843 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,854 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,856 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,866 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,877 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,891 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,893 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,903 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,912 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,915 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,920 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,938 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,948 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:00,952 INFO  [org.infinispan.CLUSTER] (jgroups-13,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:00,957 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:00,966 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:00,996 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:01,000 INFO  [org.infinispan.CLUSTER] (non-blocking-thread--p2-t4) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:01,005 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:01,014 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:01,035 INFO  [org.infinispan.CLUSTER] (jgroups-13,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:01,039 INFO  [org.infinispan.CLUSTER] (jgroups-13,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:01,043 INFO  [org.infinispan.CLUSTER] (jgroups-13,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:01,056 INFO  [org.infinispan.CLUSTER] (jgroups-13,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63166], phase READ_OLD_WRITE_ALL, topology id 2
+2022-05-17 12:21:01,070 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 3
+2022-05-17 12:21:01,072 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 4
+2022-05-17 12:21:01,080 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63166], topology id 5
+2022-05-17 12:21:01,338 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,352 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,360 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,368 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,381 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,394 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,400 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,407 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,412 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,419 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,430 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 6
+2022-05-17 12:21:01,450 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|2] (1) [gdfauth-7020]
+2022-05-17 12:21:01,450 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN100001: Node gdfauth-63166 left the cluster
+2022-05-17 17:27:50,043 WARN  [org.keycloak.events] (executor-thread-45) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=873a1b9f-dc80-4eb1-994a-76b5e0756ee9, ipAddress=14.39.188.239, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=https://49.50.167.12/subscribe/basi/Checkout/yearly, code_id=a09b0002-44d8-4bfe-8dac-3cf349a89959, username=james@jameshost, authSessionParentId=a09b0002-44d8-4bfe-8dac-3cf349a89959, authSessionTabId=GzPzvaD0HAw
+2022-05-17 17:28:00,550 WARN  [org.keycloak.events] (executor-thread-45) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=873a1b9f-dc80-4eb1-994a-76b5e0756ee9, ipAddress=14.39.188.239, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=https://49.50.167.12/subscribe/basi/Checkout/yearly, code_id=a09b0002-44d8-4bfe-8dac-3cf349a89959, username=james@jameshost, authSessionParentId=a09b0002-44d8-4bfe-8dac-3cf349a89959, authSessionTabId=GzPzvaD0HAw
+2022-05-18 16:40:50,001 WARN  [org.keycloak.events] (executor-thread-81) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-18 18:17:50,594 WARN  [org.keycloak.events] (executor-thread-89) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-20 15:05:53,248 WARN  [org.keycloak.events] (executor-thread-100) type=REFRESH_TOKEN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-20 17:02:58,891 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri, redirect_uri=https://49.50.167.12:8443
+2022-05-20 17:03:08,077 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-20 17:03:18,117 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-20 17:03:23,729 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri, redirect_uri=https://49.50.167.12:8443
+2022-05-20 17:03:28,090 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-20 17:03:31,569 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-20 17:03:45,707 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri, redirect_uri=https://49.50.167.12:8443
+2022-05-20 17:04:16,575 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri, redirect_uri=https://49.50.167.12:8443
+2022-05-20 17:04:27,112 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri, redirect_uri=https://49.50.167.12:8443
+2022-05-20 17:28:38,608 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-20 17:28:45,264 WARN  [org.keycloak.events] (executor-thread-134) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 06:03:53,039 ERROR [io.vertx.ext.web.RoutingContext] (vert.x-eventloop-thread-0) Unhandled exception in router
+2022-05-23 09:27:39,456 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:27:49,824 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:05,518 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:09,797 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:40,789 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:50,705 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:51,447 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:51,873 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:52,349 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:53,071 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:28:53,754 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:37:39,747 ERROR [org.keycloak.services] (executor-thread-141) KC-SERVICES0092: Missing parameter: response_type
+2022-05-23 09:37:39,747 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_request, redirect_uri=https://49.50.167.12
+2022-05-23 09:38:18,618 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_redirect_uri
+2022-05-23 09:39:19,899 ERROR [org.keycloak.services] (executor-thread-141) KC-SERVICES0092: Missing parameter: response_type
+2022-05-23 09:39:19,899 WARN  [org.keycloak.events] (executor-thread-141) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_request, redirect_uri=https://49.50.167.12
+2022-05-23 09:43:51,495 ERROR [org.keycloak.services] (executor-thread-148) KC-SERVICES0015: Unexpected error when authenticating client: java.lang.RuntimeException: java.io.IOException: Bad Base64 input character decimal 45 in array position 8
+	at org.keycloak.util.BasicAuthHelper.parseHeader(BasicAuthHelper.java:55)
+	at org.keycloak.authentication.authenticators.client.ClientIdAndSecretAuthenticator.authenticateClient(ClientIdAndSecretAuthenticator.java:66)
+	at org.keycloak.authentication.ClientAuthenticationFlow.processFlow(ClientAuthenticationFlow.java:72)
+	at org.keycloak.authentication.AuthenticationProcessor.authenticateClient(AuthenticationProcessor.java:913)
+	at org.keycloak.protocol.oidc.utils.AuthorizeClientUtil.authorizeClient(AuthorizeClientUtil.java:51)
+	at org.keycloak.protocol.oidc.endpoints.TokenEndpoint.checkClient(TokenEndpoint.java:246)
+	at org.keycloak.protocol.oidc.endpoints.TokenEndpoint.processGrantRequest(TokenEndpoint.java:190)
+	at jdk.internal.reflect.GeneratedMethodAccessor345.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:170)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:130)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Bad Base64 input character decimal 45 in array position 8
+	at org.keycloak.common.util.Base64.decode(Base64.java:1199)
+	at org.keycloak.common.util.Base64.decode(Base64.java:1124)
+	at org.keycloak.util.BasicAuthHelper.parseHeader(BasicAuthHelper.java:53)
+	... 56 more
+
+2022-05-23 09:43:51,502 WARN  [org.keycloak.events] (executor-thread-148) type=CODE_TO_TOKEN_ERROR, realmId=GdfAiVideoEnhancer, clientId=null, userId=null, ipAddress=14.39.188.239, error=invalid_client_credentials, grant_type=authorization_code
+2022-05-23 09:58:00,476 WARN  [org.keycloak.events] (executor-thread-150) type=LOGIN_ERROR, realmId=GdfAiVideoEnhancer, clientId=null, userId=null, ipAddress=14.39.188.239, error=cookie_not_found
+2022-05-24 03:24:48,183 WARN  [io.netty.channel.DefaultChannelPipeline] (vert.x-eventloop-thread-3) An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:623)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:586)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-25 02:39:44,899 WARN  [io.netty.channel.DefaultChannelPipeline] (vert.x-eventloop-thread-2) An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:623)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:586)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-25 14:21:24,635 WARN  [io.netty.channel.DefaultChannelPipeline] (vert.x-eventloop-thread-1) An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:623)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:586)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-26 20:49:56,537 WARN  [org.keycloak.events] (executor-thread-200) type=REFRESH_TOKEN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-30 10:17:16,659 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-248) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 10:20:30,070 WARN  [org.keycloak.events] (executor-thread-248) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-30 10:25:25,892 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-253) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 10:27:16,461 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-260) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 10:40:44,172 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-265) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 10:46:24,026 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-270) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 10:48:55,081 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-274) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 10:52:27,352 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-278) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 11:39:35,563 WARN  [org.keycloak.events] (executor-thread-280) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-30 11:56:38,089 WARN  [org.keycloak.events] (executor-thread-286) type=REFRESH_TOKEN_ERROR, realmId=GdfAiVideoEnhancer, clientId=enhancer_web, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-30 11:56:41,301 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|3] (2) [gdfauth-7020, gdfauth-312]
+2022-05-30 11:56:41,302 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN100000: Node gdfauth-312 joined the cluster
+2022-05-30 11:56:41,731 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:41,827 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:41,835 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:41,838 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:41,861 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:41,904 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:41,910 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:41,912 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:41,941 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:41,971 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:41,978 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:41,980 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,010 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,019 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,022 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,029 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,036 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,052 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,054 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,056 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,073 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,087 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,088 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,090 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,099 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,105 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,107 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,111 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,122 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,131 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,148 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,151 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,163 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,174 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,176 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,178 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,189 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,202 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,206 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,207 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,221 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-312], phase READ_OLD_WRITE_ALL, topology id 7
+2022-05-30 11:56:42,237 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 8
+2022-05-30 11:56:42,245 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 9
+2022-05-30 11:56:42,249 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-312], topology id 10
+2022-05-30 11:56:42,565 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,588 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,592 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,595 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,597 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,600 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,603 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,606 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,608 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,610 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,617 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 11
+2022-05-30 11:56:42,622 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|4] (1) [gdfauth-7020]
+2022-05-30 11:56:42,623 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN100001: Node gdfauth-312 left the cluster
+2022-05-30 11:57:53,437 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-286) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 13:20:55,412 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (executor-thread-294) Uncaught server error: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.keycloak.representations.idm.RoleRepresentation` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('test')
+ at [Source: (io.quarkus.vertx.http.runtime.VertxInputStream); line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1728)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1353)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1495)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:196)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2025)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1175)
+	at org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.readFrom(ResteasyJackson2Provider.java:193)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:101)
+	at org.jboss.resteasy.core.interception.jaxrs.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:63)
+	at org.jboss.resteasy.core.interception.jaxrs.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:80)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:213)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:95)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:128)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:660)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:524)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:474)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:476)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:434)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:192)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:151)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:82)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.handle(VertxRequestHandler.java:42)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:67)
+	at io.quarkus.vertx.http.runtime.StaticResourcesRecorder$2.handle(StaticResourcesRecorder.java:55)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:362)
+	at io.quarkus.vertx.http.runtime.VertxHttpRecorder$5.handle(VertxHttpRecorder.java:340)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1212)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at org.keycloak.quarkus.runtime.integration.web.QuarkusRequestFilter.lambda$createBlockingHandler$1(QuarkusRequestFilter.java:66)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$13.runWith(VertxCoreRecorder.java:543)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2449)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1478)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-05-30 13:23:13,823 WARN  [org.keycloak.events] (executor-thread-294) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=14.39.188.239, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-05-30 13:23:52,829 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|5] (2) [gdfauth-7020, gdfauth-4121]
+2022-05-30 13:23:52,830 INFO  [org.infinispan.CLUSTER] (jgroups-10,gdfauth-7020) ISPN100000: Node gdfauth-4121 joined the cluster
+2022-05-30 13:23:53,127 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,179 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,188 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,193 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,201 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,232 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,241 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,246 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,253 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,269 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,271 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,273 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,290 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,304 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,306 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,308 INFO  [org.infinispan.CLUSTER] (non-blocking-thread--p2-t2) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,316 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,326 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,328 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,330 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,335 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,350 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,352 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,354 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,371 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,387 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,395 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,406 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,419 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,431 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,446 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,449 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,458 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,472 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,475 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,477 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,503 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,519 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,522 INFO  [org.infinispan.CLUSTER] (jgroups-22,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,524 INFO  [org.infinispan.CLUSTER] (jgroups-22,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,538 INFO  [org.infinispan.CLUSTER] (jgroups-22,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-4121], phase READ_OLD_WRITE_ALL, topology id 12
+2022-05-30 13:23:53,545 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 13
+2022-05-30 13:23:53,549 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 14
+2022-05-30 13:23:53,551 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-4121], topology id 15
+2022-05-30 13:23:53,788 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,798 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,819 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,829 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,841 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,851 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,855 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,859 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,867 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,872 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,874 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 16
+2022-05-30 13:23:53,888 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|6] (1) [gdfauth-7020]
+2022-05-30 13:23:53,888 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN100001: Node gdfauth-4121 left the cluster
+2022-05-30 13:25:53,091 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|7] (2) [gdfauth-7020, gdfauth-31627]
+2022-05-30 13:25:53,091 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN100000: Node gdfauth-31627 joined the cluster
+2022-05-30 13:25:53,475 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,546 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,551 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,555 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,566 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,605 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,613 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,622 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,632 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,644 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,657 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,660 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,679 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,694 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,696 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,698 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,713 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,727 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,729 INFO  [org.infinispan.CLUSTER] (jgroups-26,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,732 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,737 INFO  [org.infinispan.CLUSTER] (jgroups-27,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,766 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,776 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,778 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,786 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,800 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,802 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,805 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,812 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,819 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,821 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,822 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,829 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,837 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,842 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,843 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,852 INFO  [org.infinispan.CLUSTER] (jgroups-25,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,880 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,893 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,896 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:53,902 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-31627], phase READ_OLD_WRITE_ALL, topology id 17
+2022-05-30 13:25:53,917 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 18
+2022-05-30 13:25:53,919 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 19
+2022-05-30 13:25:53,922 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-31627], topology id 20
+2022-05-30 13:25:54,137 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,145 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,150 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,155 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,164 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,170 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,175 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,179 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,190 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,193 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,196 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 21
+2022-05-30 13:25:54,203 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|8] (1) [gdfauth-7020]
+2022-05-30 13:25:54,203 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN100001: Node gdfauth-31627 left the cluster
+2022-05-30 13:31:37,678 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|9] (2) [gdfauth-7020, gdfauth-49820]
+2022-05-30 13:31:37,678 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) ISPN100000: Node gdfauth-49820 joined the cluster
+2022-05-30 13:31:38,019 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,071 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,076 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,077 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,087 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,129 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,131 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,136 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,142 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,165 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,175 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,178 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,224 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,238 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,242 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,244 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,252 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,258 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,259 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,261 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,265 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,270 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,273 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,275 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,293 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,307 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,310 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,312 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,319 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,324 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,326 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,327 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,336 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,345 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,347 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,350 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,359 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,364 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,366 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,369 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,385 INFO  [org.infinispan.CLUSTER] (jgroups-33,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-49820], phase READ_OLD_WRITE_ALL, topology id 22
+2022-05-30 13:31:38,403 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 23
+2022-05-30 13:31:38,408 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 24
+2022-05-30 13:31:38,410 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-49820], topology id 25
+2022-05-30 13:31:38,726 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,731 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,737 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,742 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,748 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,753 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,762 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,765 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,766 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,768 INFO  [org.infinispan.CLUSTER] (jgroups-23,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,777 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 26
+2022-05-30 13:31:38,792 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|10] (1) [gdfauth-7020]
+2022-05-30 13:31:38,792 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) ISPN100001: Node gdfauth-49820 left the cluster
+2022-05-30 13:34:23,110 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|11] (2) [gdfauth-7020, gdfauth-63150]
+2022-05-30 13:34:23,110 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) ISPN100000: Node gdfauth-63150 joined the cluster
+2022-05-30 13:34:23,411 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,476 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,492 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,505 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,530 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,589 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,598 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,605 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,617 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,644 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,654 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,656 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,696 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,723 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,726 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,730 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,741 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,763 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,767 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,769 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,777 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,804 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,809 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,811 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,826 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,846 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,850 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,852 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,860 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,869 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,871 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,872 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,878 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,897 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,904 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,906 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,914 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,919 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,926 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,928 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:23,932 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-63150], phase READ_OLD_WRITE_ALL, topology id 27
+2022-05-30 13:34:23,946 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 28
+2022-05-30 13:34:23,948 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 29
+2022-05-30 13:34:23,950 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-63150], topology id 30
+2022-05-30 13:34:24,167 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,173 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,176 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,179 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,181 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,183 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,186 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,203 INFO  [org.infinispan.CLUSTER] (jgroups-32,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,204 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,214 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,222 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 31
+2022-05-30 13:34:24,238 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|12] (1) [gdfauth-7020]
+2022-05-30 13:34:24,238 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) ISPN100001: Node gdfauth-63150 left the cluster
+2022-05-30 13:35:31,921 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|13] (2) [gdfauth-7020, gdfauth-29138]
+2022-05-30 13:35:31,921 INFO  [org.infinispan.CLUSTER] (jgroups-38,gdfauth-7020) ISPN100000: Node gdfauth-29138 joined the cluster
+2022-05-30 13:35:32,199 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,261 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,266 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,272 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,279 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,305 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,307 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,309 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,315 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,333 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,335 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,337 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,358 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,386 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,389 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,391 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,405 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,412 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,433 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,435 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,462 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,472 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,478 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,482 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,493 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,509 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,518 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,526 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,552 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,574 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,578 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,581 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,591 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,606 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,610 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,615 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,634 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,648 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,654 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,656 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:32,665 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-29138], phase READ_OLD_WRITE_ALL, topology id 32
+2022-05-30 13:35:32,682 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 33
+2022-05-30 13:35:32,691 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 34
+2022-05-30 13:35:32,705 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-29138], topology id 35
+2022-05-30 13:35:33,169 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,179 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,182 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,185 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,189 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,194 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,196 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,200 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,202 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,206 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,213 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 36
+2022-05-30 13:35:33,225 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|14] (1) [gdfauth-7020]
+2022-05-30 13:35:33,225 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) ISPN100001: Node gdfauth-29138 left the cluster
+2022-05-30 13:35:39,838 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|15] (2) [gdfauth-7020, gdfauth-8384]
+2022-05-30 13:35:39,838 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) ISPN100000: Node gdfauth-8384 joined the cluster
+2022-05-30 13:35:40,155 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,212 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,218 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,220 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,229 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,266 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,268 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,270 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,275 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,291 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,293 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,295 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,330 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,344 INFO  [org.infinispan.CLUSTER] (jgroups-41,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,348 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,349 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,372 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,393 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,395 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,396 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,401 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,407 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,409 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,412 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,425 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,432 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,434 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,435 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,448 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,453 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,455 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,456 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,462 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,475 INFO  [org.infinispan.CLUSTER] (jgroups-42,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,478 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,479 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,486 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,493 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,494 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,496 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,502 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-8384], phase READ_OLD_WRITE_ALL, topology id 37
+2022-05-30 13:35:40,508 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 38
+2022-05-30 13:35:40,512 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 39
+2022-05-30 13:35:40,513 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-8384], topology id 40
+2022-05-30 13:35:40,749 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,757 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,763 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,766 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,770 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,772 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,774 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,778 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,781 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,785 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,787 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 41
+2022-05-30 13:35:40,793 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|16] (1) [gdfauth-7020]
+2022-05-30 13:35:40,793 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) ISPN100001: Node gdfauth-8384 left the cluster
+2022-05-30 13:45:25,333 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|17] (2) [gdfauth-7020, gdfauth-22088]
+2022-05-30 13:45:25,333 INFO  [org.infinispan.CLUSTER] (jgroups-40,gdfauth-7020) ISPN100000: Node gdfauth-22088 joined the cluster
+2022-05-30 13:45:25,657 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,718 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,724 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,726 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,734 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=sessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,768 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,774 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,775 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=sessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,782 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=clientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,792 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,794 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,797 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=clientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,814 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=work] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,827 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,829 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,830 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=work] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,839 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,850 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,852 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,853 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,860 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=loginFailures] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,869 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,871 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,872 INFO  [org.infinispan.CLUSTER] (jgroups-47,gdfauth-7020) [Context=loginFailures] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,879 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,890 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,891 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,893 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,902 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,910 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,911 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,913 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,923 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,932 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,934 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,936 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,940 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineSessions] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,947 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,948 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,950 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineSessions] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:25,956 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=actionTokens] ISPN100002: Starting rebalance with members [gdfauth-7020, gdfauth-22088], phase READ_OLD_WRITE_ALL, topology id 42
+2022-05-30 13:45:25,961 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 43
+2022-05-30 13:45:25,962 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 44
+2022-05-30 13:45:25,968 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=actionTokens] ISPN100010: Finished rebalance with members [gdfauth-7020, gdfauth-22088], topology id 45
+2022-05-30 13:45:26,977 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=authenticationSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:26,981 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=sessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:26,984 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=clientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:26,986 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=work] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:26,989 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CLIENT_SERVER_TX_TABLE] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:26,994 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=loginFailures] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:27,005 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineClientSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:27,009 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:27,013 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=org.infinispan.COUNTER] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:27,015 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=offlineSessions] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:27,017 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) [Context=actionTokens] ISPN100008: Updating cache members list [gdfauth-7020], topology id 46
+2022-05-30 13:45:27,023 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) ISPN000094: Received new cluster view for channel ISPN: [gdfauth-7020|18] (1) [gdfauth-7020]
+2022-05-30 13:45:27,023 INFO  [org.infinispan.CLUSTER] (jgroups-50,gdfauth-7020) ISPN100001: Node gdfauth-22088 left the cluster

@@ -1,0 +1,348 @@
+@font-face{
+  font-family: 'NotoSansKR';
+  font-weight: 400;
+  src:url('./font/NotoSansKR-Regular.woff') format('woff');
+  unicode-range: U+AC00-D7A3;
+}
+@font-face{
+  font-family: 'NotoSansKR';
+  font-weight: 500;
+  src:url('./font/NotoSansKR-Medium.woff') format('woff')
+}
+@font-face{
+  font-family: 'NotoSansKR';
+  font-weight: 600;
+  src:url('./font/NotoSansKR-Bold.woff') format('woff')
+}
+@font-face{
+  font-family: 'ClarityCity';
+  font-weight: 400;
+  src:url('./font/ClarityCity-Regular.woff') format('woff')
+}
+@font-face{
+  font-family: 'ClarityCity';
+  font-weight: 500;
+  src:url('./font/ClarityCity-Medium.woff') format('woff')
+}
+@font-face{
+  font-family: 'ClarityCity';
+  font-weight: 600;
+  src:url('./font/ClarityCity-SemiBold.woff') format('woff')
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'ClarityCity','NotoSansKR';
+  background: #6397fe;
+  margin: 0;
+  color: #111;
+}
+input{
+  font-family: 'ClarityCity','NotoSansKR';
+}
+input[type=button]{
+  min-width: 200px;
+}
+input[type=submit]{
+  min-width: 200px;
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+  color: #111;
+}
+
+
+/* ============================================= */
+/* ================ login main ================= */
+/* ============================================= */
+.loginWrap{
+  width: 100%;
+  height: 100%;
+}
+.loginAll{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.loginWrap>div{
+  min-width: 400px;
+  width: 25%;
+  height: auto;
+  transform: translate(-50%,-50%);
+}
+.formCard{
+  background: #fff;
+  box-shadow: 0 20px 50px #0c52e03b;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+}
+
+
+/* header */
+#kc-header{
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#kc-header-wrapper{
+  font-size: 70px;
+  font-weight: 600;
+}
+.header-sub{
+}
+.header-sub h1{
+  font-size: 18px !important;
+  font-weight: 400;
+  text-transform: none;
+  color: #d7e3ff;
+}
+
+
+/* login form */
+.loginIcon{
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 20px;
+}
+#kc-page-title {
+  font-size: 25px;
+  margin: 15px;
+}
+#kc-form{
+  margin: auto;
+}
+#kc-form-wrapper{
+}
+#kc-form-login{
+  text-align: left;
+}
+
+
+/* login content */
+.loginForm{
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  z-index: 1;
+  margin: 10px 0;
+}
+.loginFormSet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.loginId, .loginPw{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.loginInput{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 25px 18px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.25s;
+}
+.loginInput::placeholder{
+  transition: 0.25s;
+  font-size: 16px;
+  font-weight: 500;
+  color: #c2c2c2;
+}
+.loginInput:focus{
+  box-shadow: 0 0 10px #6397fe65;
+}
+.loginInput:focus::placeholder{
+  transform: translateY(-15px);
+  font-size: 11px;
+  transition: 0.25s;
+}
+.loginInput:focus:not(:placeholder-shown){
+  background: #6397fe;
+  color: #fff;
+}
+.inputError{
+  display: block;
+  font-size: 13px;
+  color: #ff7272;
+}
+.checkbox{
+  font-size: 14px;
+}
+.checkbox label{
+  display: flex;
+  align-items: center;
+}
+.checkbox label span{
+  display: inline-block;
+  margin-left: 5px;
+}
+.formOption{
+
+}
+.formOption a{
+  color: #6397fe;
+  font-size: 14px;
+  transition: 0.25s;
+}
+.formOption a:hover{
+  color: #1462ff;
+}
+
+
+/* btn */
+#kc-form-buttons{
+  height: 55px;
+  text-align: center;
+}
+.btn{
+  width: 70%;
+  height: 55px;
+  background: #6397fe;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.25s;
+}
+.btn:hover{
+  background: #3478ff;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px #3478ff66;
+}
+.btnPrimary{
+  background: #6397fe;
+}
+.btnBlock{
+  
+}
+.btnLarge{
+  
+}
+
+
+/* register */
+#kc-info{
+  color: #fff;
+}
+#kc-registration-container{
+  
+}
+#kc-registration {
+  width: 100%;
+  height: 30px;
+}
+#kc-registration span{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin: 30px 0;
+  color: #d7e3ff;
+}
+#kc-registration span a{
+  margin-left: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* social */
+#kc-social-providers{
+  width: 100%;
+  height: 55px;
+}
+.socialList{
+  display: flex;
+  justify-content: center;
+}
+.socialList a{
+  width: 70%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background: #b8d0ff;
+  border-radius: 100px;
+  color: #111;
+  transition: 0.25s;
+}
+.socialList a:hover{
+  color: #fff;
+  background: #6397fe;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px #6397fe63;
+}
+.socialList a h4{
+  margin-right: 5px;
+  font-weight: 400;
+}
+.socialList a span{
+  font-weight: 600;
+}
+
+
+/* ============================================= */
+/* ================= register ================== */
+/* ============================================= */
+
+#kc-register-form{
+  width: 100%;
+}
+#kc-register-form .loginForm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  margin: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+#kc-register-form .loginForm:nth-last-of-type(2),
+#kc-register-form .loginForm:last-of-type{
+  border-bottom: 0;
+}
+#kc-register-form .loginForm:last-of-type{
+  margin-top: 30px;
+}
+#kc-register-form .labelWrap{
+  text-align: left;
+  font-size: 14px;
+}
+#kc-register-form .inputWrap{
+  width: 55%;
+}
+#kc-register-form .inputWrap .loginInput{
+  width: 100%;
+  padding: 15px;
+}
+
+
+/* ============================================= */
+/* ============== forgot password ============== */
+/* ============================================= */
+
+.bottomTxt{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 30px;
+  color: #d7e3ff;
+}
